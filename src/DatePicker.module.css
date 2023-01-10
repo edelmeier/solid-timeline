@@ -1,0 +1,35 @@
+/*Copyright (c) 2023, Sebastian Edelmeier*/
+/*All rights reserved.*/
+
+/*This source code is licensed under the ISC license found in the*/
+/*LICENSE file in the root directory of this source tree.*/
+
+.layout {
+    padding: 1em;
+}
+
+.calendar {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar .weekday,
+.calendar .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    padding: 0.5em;
+    cursor: pointer;
+    aspect-ratio: 1 / 1;
+}
+
+.calendar .weekday {
+    font-weight: bold;
+}
+
+.calendar .date {
+    border-radius: 200%;
+
+}
