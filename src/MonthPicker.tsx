@@ -8,7 +8,7 @@ import { createSignal } from "solid-js";
 import UpIcon from "@suid/icons-material/ExpandLess";
 import DownIcon from "@suid/icons-material/ExpandMore";
 import { months } from "./constants";
-import styles from "./MonthPicker.module.css";
+import styles from "~/MonthPicker.module.css";
 
 export interface Month {
   monthIndex: number;
