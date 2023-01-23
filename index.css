@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(60deg, rgba(2, 0, 36, 1) 0%, rgba(51, 29, 65, 1) 35%, rgba(20, 84, 159, 1) 100%);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    overflow: auto;
+}
+
+#container {
+    margin: 3em;
+}
+
+.component-frame {
+    background-color: #ffffffaa;
+    color: black;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
