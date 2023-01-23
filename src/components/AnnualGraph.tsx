@@ -47,7 +47,7 @@ function WeeklyGraph(props: WeeklyGraphProps) {
             style={{
               "font-size": "0.6em",
               color: day.active ? "#888" : "#ccc",
-              background: day.active ? "#ddd" : "#fff",
+              background: day.active ? "#ddd" : "transparent",
               "text-align": "center",
             }}
           >
@@ -89,7 +89,7 @@ export function AnnualGraph(props: AnnualGraphProps) {
       weekStart.setDate(weekStartTmp.getDate() + 7);
     }
     setWeeks(() => weeksTmp);
-    setMonthWidth(() => Math.ceil(weeks.length / 12) * 16);
+    setMonthWidth(() => Math.ceil(weeks().length / 12) * 16);
   });
 
   return (

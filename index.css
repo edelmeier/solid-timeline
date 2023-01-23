@@ -4,6 +4,7 @@ html, body {
     background: rgb(2, 0, 36);
     background: linear-gradient(60deg, rgba(2, 0, 36, 1) 0%, rgba(51, 29, 65, 1) 35%, rgba(20, 84, 159, 1) 100%);
     color: white;
+
     font-family: 'Quicksand', sans-serif;
     overflow: auto;
 }
@@ -18,4 +19,7 @@ html, body {
     padding: 2em;
     border-radius: 1em;
     margin-bottom: 1em;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
 }

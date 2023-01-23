@@ -75,6 +75,7 @@ export function DatePicker(props: DatePickerProps) {
 
   const selectDate = (date: Date) => {
     setValue(date);
+    props.onSelect(date);
     handleClose();
   };
 

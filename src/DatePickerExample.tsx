@@ -11,7 +11,6 @@ export default function DatePickerExample() {
         value={ex1()}
         onSelect={(d) => {
           setEx1(d);
-          alert(d.toString());
         }}
       />
     </div>
