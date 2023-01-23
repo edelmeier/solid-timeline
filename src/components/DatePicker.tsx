@@ -7,7 +7,7 @@
 import { Popover, TextField } from "@suid/material";
 import { createEffect, createSignal, For } from "solid-js";
 import { getMonday, parseDate } from "./functions";
-import styles from "~/DatePicker.module.css";
+import styles from "./DatePicker.module.css";
 import { Month, MonthPicker } from "./MonthPicker";
 import { DayItem } from "./calendar.types";
 
