@@ -4,22 +4,20 @@
   "description": "UI Components for basic date interaction in the solidjs ecosystem",
   "main": "dist/cjs/my-lib.js",
   "module": "dist/esm/my-lib.js",
+  "type": "module",
   "types": "dist/types/my-lib.d.ts",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "solid": "./dist/source/my-lib.jsx",
-      "import": "./dist/esm/my-lib.js",
-      "browser": "./dist/esm/my-lib.js",
-      "require": "./dist/cjs/my-lib.js",
-      "node": "./dist/cjs/my-lib.js"
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
     }
   },
-  "type": "module",
   "scripts": {
-    "build": "rollup -c",
+    "dev": "vite",
+    "build": "vite build",
     "test": "tsc --noEmit",
     "lint": "eslint --ext ts,tsx --cache src",
     "lint:fix": "npm run lint -- --fix"
@@ -45,11 +43,13 @@
     "@suid/icons-material": "^0.5.1",
     "@suid/material": "^0.8.0",
     "babel-plugin-react-css-modules": "^5.2.6",
-    "rollup-plugin-postcss": "^4.0.2",
     "solid-js": "^1.6.8",
     "suid": "^1.0.0"
   },
   "devDependencies": {
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-postcss-modules": "^2.1.1",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@suid/vite-plugin": "^0.1.0",
