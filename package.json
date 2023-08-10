@@ -40,19 +40,17 @@
   },
   "homepage": "https://github.com/edelmeier/solid-timeline#readme",
   "dependencies": {
-    "@suid/icons-material": "^0.5.1",
-    "@suid/material": "^0.8.0",
-    "babel-plugin-react-css-modules": "^5.2.6",
-    "solid-js": "^1.6.8",
-    "suid": "^1.0.0"
+    "@suid/icons-material": "*",
+    "@suid/material": "*",
+    "solid-js": "*"
   },
   "devDependencies": {
-    "babel-plugin-react-css-modules": "^5.2.6",
-    "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-postcss-modules": "^2.1.1",
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@suid/vite-plugin": "^0.1.0",
+    "@suid/vite-plugin": "*",
+    "typescript": "^4.8.2",
+    "vite": "*",
+    "vite-plugin-solid": "*",
+    "eslint-plugin-solid": "^0.9.1",
+    "prettier": "^2.8.2",
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.0",
@@ -60,15 +58,6 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-solid": "^0.9.1",
-    "prettier": "^2.8.2",
-    "rollup": "^3.10.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-typescript2": "^0.34.1",
-    "typescript": "^4.8.2",
-    "vite": "^4.0.4",
-    "vite-plugin-solid": "^2.5.0"
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }
