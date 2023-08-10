@@ -1,34 +1,16 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
     "target": "ESNext",
-    "experimentalDecorators": true,
-    "jsx": "preserve",
-    "esModuleInterop": true,
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
-    "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
-    "isolatedModules": true,
-    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
     "moduleResolution": "node",
-    "strict": true,
-    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": [
+      "vite/client"
+    ],
     "noEmit": true,
-    "resolveJsonModule": true,
-    "paths": {
-      "~/*": [
-        "./src/*"
-      ]
-    },
-  },
-  "include": [
-    "./src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-  ]
+    "isolatedModules": true
+  }
 }
